@@ -1,0 +1,10 @@
+body { font-family: system-ui, -apple-system, Segoe UI, Roboto, 'Helvetica Neue', Arial; margin: 0; padding: 0; background: #f7f7f7; }
+.container { max-width: 800px; margin: 24px auto; background: #fff; padding: 18px; box-shadow: 0 2px 6px rgba(0,0,0,0.06); }
+header h1 { margin: 0 0 8px 0; }
+nav a { margin-right: 8px; color: #0366d6; text-decoration: none; }
+.tasks { list-style: none; padding: 0; }
+.task { display:flex; justify-content:space-between; padding: 8px; border-bottom: 1px solid #eee; }
+.task.done span { text-decoration: line-through; color: #888; }
+.actions a, .actions button { margin-left: 8px; }
+button { background: #0366d6; color: #fff; border: none; padding: 6px 10px; border-radius: 4px; cursor: pointer; }
+button:hover { opacity: 0.95; }
